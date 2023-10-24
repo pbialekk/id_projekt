@@ -1,0 +1,11 @@
+CREATE INDEX vote_idx ON votes(annotation_id, value);
+CREATE INDEX comments_idx ON comments(annotation_id);
+CREATE INDEX annotation_idx ON annotations(lyric_id, visible);
+CREATE INDEX tags_idx ON tags(name);
+CREATE INDEX lyrics_idx ON lyrics(song_id);
+CREATE INDEX reviews_idx ON reviews(entity_id, visible);
+CREATE INDEX entity_facts_idx ON entity_facts(entity_id, visible);
+CREATE INDEX visited_idx ON visited(entity_id);
+CREATE INDEX reverse_visited_idx ON reverse_visited(entity_id);
+CREATE INDEX pqueue_idx ON pqueue(entity_id);
+CREATE INDEX reverse_pqueue_idx ON reverse_pqueue(entity_id);
