@@ -5,4 +5,4 @@ Authors:
 - Piotr Białek
 - Antoni Długosz
 
-Quick showcase of what our DB can do: https://www.youtube.com/watch?v=jdBnKvHYRS8
+Quick showcase of what our DB API can do: https://www.youtube.com/watch?v=jdBnKvHYRS8
